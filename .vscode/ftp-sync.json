@@ -1,0 +1,26 @@
+{
+    "remotePath": "./",
+    "host": "199.250.196.73",
+    "username": "shan@perfectbinding.lk",
+    "password": "nuA,mM)FkpH]",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\package-lock.json",
+        "\\node_modules"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}

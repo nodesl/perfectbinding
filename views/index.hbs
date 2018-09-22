@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Perfect Binding</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="mosh-preloader"></div>
+    </div>
+
+    <!-- Off canvas menu -->
+    <div id="mySidenav" class="sidenav">
+
+    <a href="#">About</a>
+    <a href="#">Features</a>
+    <a href="#">Process</a>
+    <a href="#">Rates</a>
+    <a href="#">Contacts</a>
+    <a href="#">Login</a>
+    </div>
+
+    <div id="main">
+    <!-- ***** Header Area Start ***** -->
+    {{> header}}
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome_area clearfix" id="home" style="background-image: url(img/bg-img/welcome-bg.png)">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Get your thesis printed</h2>
+                    <h4>Most reliable &amp; guaranteed service</h4>
+                    <div class="col-12 text-center mt-40">
+                        <a href="#" class="btn mosh-btn">Upload PDF/DOCX</a>
+                    </div>
+                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            {{!-- <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>A Clean and Modern Template</h2>
+                    <h4>Get your freebie template now!</h4>
+                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                </div>
+            </div> --}}
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="mosh-service-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mosh-service-slides owl-carousel">
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            {{!-- <h2>01.</h2> --}}
+                            <img src="img/icons/paper.png" alt="best quality paper">
+                            <h4>Material Quality</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <img src="img/icons/eco-friendly.png" alt="eco friendly">
+                            <h4>ECO Friendly</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <img src="img/icons/deliver.png" alt="delivery">
+                            <h4>1 Week</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** Features Area Start ***** -->
+    <section class="mosh-features-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-12 col-md-6">
+                    <div class="section-heading">
+                        <p>ABOUT US</p>
+                        <h2>What you get if you start your business with us</h2>
+                    </div>
+                    <div class="features-content">
+                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul. Nec odio vestibulum est mattis effic iturut magna. Pellente sque sita met tellus blandit. Etiam nec odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Thumb -->
+        <div class="features-img">
+            <img src="img/bg-img/features.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Feature Area End ***** -->
+
+    <!-- ***** Clients Area Start ***** -->
+    <section class="mosh-clients-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Universities that we're working with</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="clients-logo-area d-sm-flex align-items-center justify-content-between">
+                        <a href="#"><img src="img/logos/uoc.png" alt=""><span>University of Colombo</span></a>
+                        <a href="#"><img src="img/logos/uom.png" alt=""><span>University of Moratuwa</span></a>
+                        <a href="#"><img src="img/logos/uop.png" alt=""><span>University of Peradeniya</span></a>
+                        <a href="#"><img src="img/logos/uwu.jpg" alt=""><span>Uva Wellassa University</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Clients Area End ***** -->
+
+    
+
+    
+
+    <!-- ***** Workflow Area Start ***** -->
+    <section class="mosh-workflow-area section_padding_100_0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mb-0">
+                        <p>Our Process</p>
+                        <h2>This is how we work on your Thesis</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workflow-img">
+            <img src="img/core-img/work-progress.png" alt="">
+        </div>
+
+        <div class="workflow-slides-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mosh-workflow-slides owl-carousel">
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>1.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Send us the doc</h4>
+                                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>2.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>We print it</h4>
+                                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>3.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Then deliver</h4>
+                                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(img/bg-img/cta.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-heading">
+                            <p>Start submitting</p>
+                            <h2>Drag your file here or Browse to upload</h2>
+                            <a href="contact.html" class="btn mosh-btn">Upload File</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area clearfix">
+        <!-- Top Fotter Area -->
+        <div class="top-footer-area section_padding_100_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <a href="#" class="mb-22 d-block"><img src="img/core-img/perfect-binding.png" alt=""></a>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellent esque sit amet tellus blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Fast links</h5>
+                            <ul>
+                                <li><a href="#">Cancellation Policy</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                {{!-- <li><a href="#">Services &amp; Features</a></li>
+                                <li><a href="#">Accordions and tabs</a></li>
+                                <li><a href="#">Menu ideas</a></li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget sendamsg mb-100">
+                            <h5>Ask anything : )</h5>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                    <button class="btn mosh-btn btn-sm" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Contact Info</h5>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/map.png" alt="">
+                                </div>
+                                <p>4127/ 5B-C Mislane Road, Gibraltar, UK</p>
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/call.png" alt="">
+                                </div>
+                                <p>Main: 203-808-8613 <br> Office: 203-808-8648</p>
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/message.png" alt="">
+                                </div>
+                                <p>office@yourbusiness.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fotter Bottom Area -->
+        {{> footer_bottom}}
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+    </div>
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
